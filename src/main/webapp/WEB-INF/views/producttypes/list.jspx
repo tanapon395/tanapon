@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_roo_productimport_domain_ProductType" items="${producttypes}" z="fpae5XHsxmzJDAHgkwLJgr38g8E=">
+        <table:table data="${producttypes}" id="l_com_springsource_roo_productimport_domain_ProductType" path="/producttypes" z="xX9k6Tls7qI+uvNIBsdn+QHS1ok=">
+            <table:column id="c_com_springsource_roo_productimport_domain_ProductType_name" property="name" z="exMU6Nzl1L6kNFVqR6zhttaYgDs="/>
+        </table:table>
+    </page:list>
+</div>

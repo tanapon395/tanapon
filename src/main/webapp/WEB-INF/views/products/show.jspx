@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springsource_roo_productimport_domain_Product" object="${product}" path="/products" z="lyTq89PJys+yrox1x9f9mm7eG/c=">
+        <field:display field="productid" id="s_com_springsource_roo_productimport_domain_Product_productid" object="${product}" z="I59EktY/+Y30Nv/0tW1yO03vIjg="/>
+        <field:display field="productname" id="s_com_springsource_roo_productimport_domain_Product_productname" object="${product}" z="rZfxqTbkyCr9D/rhFJjPdx+ZBGE="/>
+        <field:display field="price" id="s_com_springsource_roo_productimport_domain_Product_price" object="${product}" z="Qt4O/y7rLjvizisavLzFmMOJgpY="/>
+        <field:display field="manufacturer" id="s_com_springsource_roo_productimport_domain_Product_manufacturer" object="${product}" z="LTgM2bDIt+nxIFe+njZJLR24HNQ="/>
+        <field:display date="true" dateTimePattern="${product_manufacturerdate_date_format}" field="manufacturerdate" id="s_com_springsource_roo_productimport_domain_Product_manufacturerdate" object="${product}" z="0TZkutMJ1IpwVpdNAXcigJjhplw="/>
+        <field:display field="typeproduct" id="s_com_springsource_roo_productimport_domain_Product_typeproduct" object="${product}" z="v6mPe3sCwTowkYlurMhCbIgPct8="/>
+    </page:show>
+</div>

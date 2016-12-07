@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_roo_productimport_domain_Product" items="${products}" z="Ui1DjanPqFHKl+EAwP062wxjpww=">
+        <table:table data="${products}" id="l_com_springsource_roo_productimport_domain_Product" path="/products" z="RhaYoZ7JxRsX4ImBZxadvmb6SNQ=">
+            <table:column id="c_com_springsource_roo_productimport_domain_Product_productid" property="productid" z="SY9+/2pMCx3P9WV1t0w309qMeZA="/>
+            <table:column id="c_com_springsource_roo_productimport_domain_Product_productname" property="productname" z="bvkJ6UY9Rc+qp0lAxMF8l6OwRic="/>
+            <table:column id="c_com_springsource_roo_productimport_domain_Product_price" property="price" z="DA3gdsHI3/qsrKAkwr0kXKQXlrY="/>
+            <table:column id="c_com_springsource_roo_productimport_domain_Product_manufacturer" property="manufacturer" z="mjcab+nTwME/WvRKHYu68EmDbVs="/>
+            <table:column date="true" dateTimePattern="${product_manufacturerdate_date_format}" id="c_com_springsource_roo_productimport_domain_Product_manufacturerdate" property="manufacturerdate" z="ZAK1AAZW3kPwAwZIrsA9gqpe054="/>
+            <table:column id="c_com_springsource_roo_productimport_domain_Product_typeproduct" property="typeproduct" z="KuiAC3k3e42IV5mtATjsQWZvy4Q="/>
+        </table:table>
+    </page:list>
+</div>
