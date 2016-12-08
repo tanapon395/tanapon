@@ -11,5 +11,9 @@
             <menu:item id="i_producttype_new" messageCode="global_menu_new" url="/producttypes?form" z="432aOaTLo3ZSnBcW6QyEXZT97i0="/>
             <menu:item id="i_producttype_list" messageCode="global_menu_list" url="/producttypes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Buyr7w99pffL/a/YP70G+lF5xzo="/>
         </menu:category>
+        <menu:category id="c_employee" z="sxLyQbJ/qSw9Reoi1NHvJhkZ/rU=">
+            <menu:item id="i_employee_new" messageCode="global_menu_new" url="/employees?form" z="+S/pgOAdANt9JPGnS20kM8qTu00="/>
+            <menu:item id="i_employee_list" messageCode="global_menu_list" url="/employees?page=1&amp;size=${empty param.size ? 10 : param.size}" z="IfTXfF5mBLDCW+DUkfuN3Wgvias="/>
+        </menu:category>
     </menu:menu>
 </div>
