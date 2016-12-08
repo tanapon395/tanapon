@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_roo_productimport_domain_Employee" items="${employees}" z="wYG6HbMeGmM6VrKu2lMxYylKa+w=">
+        <table:table data="${employees}" id="l_com_springsource_roo_productimport_domain_Employee" path="/employees" z="KxPnrYglSXYg0hpKe+eJFF16M7Q=">
+            <table:column id="c_com_springsource_roo_productimport_domain_Employee_employeeid" property="employeeid" z="5seXV4iTMD3b2vPwVxfZoE7GOLc="/>
+            <table:column id="c_com_springsource_roo_productimport_domain_Employee_employeename" property="employeename" z="LWdwZQNvJEQ7OrJwqIUZFPcZt2A="/>
+            <table:column id="c_com_springsource_roo_productimport_domain_Employee_email" property="email" z="z0SvXQGta+uwdlxc/R3/cGeaHFk="/>
+            <table:column id="c_com_springsource_roo_productimport_domain_Employee_tel" property="tel" z="UC0qJHl8h+vODqk20hCwSPajvIw="/>
+            <table:column id="c_com_springsource_roo_productimport_domain_Employee_address" property="address" z="jGvmP64V0EFd9eFY0fYX5CFi4xA="/>
+            <table:column id="c_com_springsource_roo_productimport_domain_Employee_department" property="department" z="c+AY2ow+BApDelcsYZZUVBLCtGI="/>
+        </table:table>
+    </page:list>
+</div>
